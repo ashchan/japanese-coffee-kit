@@ -1,0 +1,29 @@
+{
+  "name": "japanese-kit",
+  "version": "0.0.1",
+  "description": "Tools for Japanese romanization, verb deinflection, etc.",
+  "main": "./lib/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "coffee-script": "~1.6.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ashchan/japanese-coffee-kit.git"
+  },
+  "keywords": [
+    "japanese",
+    "romaji",
+    "romanization",
+    "deinflect"
+  ],
+  "author": "James Chen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ashchan/japanese-coffee-kit/issues"
+  },
+  "homepage": "https://github.com/ashchan/japanese-coffee-kit"
+}
