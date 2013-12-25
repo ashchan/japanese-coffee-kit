@@ -1,4 +1,4 @@
-root = exports ? this
+JKit = exports? and exports or @JKit = {}
 
-root.Romaji = require "./romaji"
-root.Deinflector = require "./deinflect"
+JKit.Romaji = require "./romaji"
+JKit.Deinflector = require "./deinflect"

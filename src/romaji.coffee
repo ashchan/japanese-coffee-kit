@@ -1,16 +1,16 @@
 # Japanese Romanization
 # Output Hepburn romanization
 
-root = exports ? this
+Romaji = exports? and exports or @Romaji = {}
 
-root.toRomaji = (kanakana) ->
-  values = (romaji[val] or val for val in toHiragana kanakana).join ""
+Romaji.toRomaji = (kanakana) ->
+  values = (romaji[val] or val for val in @toHiragana kanakana).join ""
   for rule in transliteration.hepburn
     values = values.replace rule[0], rule[1]
   values
 
-root.toHiragana = toHiragana = (katakana) ->
-  kana[val] or val for val in katakana.split ""
+Romaji.toHiragana = (katakana) ->
+    kana[val] or val for val in katakana.split ""
 
 kana =
   "ア": "あ", "ァ": "ぁ",
