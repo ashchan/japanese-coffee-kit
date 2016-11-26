@@ -1,11 +1,11 @@
 {
   "name": "japanese-kit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Tools for Japanese romanization, verb deinflection, etc.",
   "main": "./lib/index.js",
   "dependencies": {},
   "devDependencies": {
-    "coffee-script": "~1.6.3"
+    "coffee-script": "~1.11.x"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
